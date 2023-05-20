@@ -205,6 +205,26 @@ git switch -c new-branch-name
 git checkout master
 
 로컬 저장소에서 브랜치 삭제
-git branch -D 브랜치명
+git branch -d 브랜치명
 
 ## Amending Commits and Ignoring Files
+
+■ 커밋 수정
+▷ 커밋 수정(amend)은 가장 마지막 커밋을 수정하는 것
+git commit --amend -m "(메시지)"
+git commit --amend --no-edit
+--no-edit ▷ 커밋 메세지는 수정하지 않는다
+
+■ 커밋할 때 파일들의 상태보기
+git status
+▷ stage 영역에 있지 않은 파일은 빨간색으로 표시
+▷ stage 영역에 있는 파일은 초록색으로 표시
+
+■ .gitignore파일에 git에 추가하고 싶지 않은 파일이나 폴더 입력
+폴더를 추가하는 방법 ▷ /(폴더명)
+
+■ stage 영역에서 제거
+git rm -r (제거할 것) --cached
+-r ▷ 폴더 제거시 사용
+
+##
