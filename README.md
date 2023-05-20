@@ -227,4 +227,15 @@ git status
 git rm -r (제거할 것) --cached
 -r ▷ 폴더 제거시 사용
 
-##
+## Origins
+
+■ 원격저장소 목록
+git remote -v
+
+■ 원격저장소 추가
+git remote add (이름) (url)
+
+■ 원격저장소 제거
+git remote remove (이름)
+※ 더 간단한 명령어
+git remote rm (이름)
