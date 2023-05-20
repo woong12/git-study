@@ -1,1 +1,2 @@
 Title: Git study
+Subtitle: Git
